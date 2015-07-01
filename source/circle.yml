@@ -1,0 +1,19 @@
+machine:
+  ruby:
+    version: 2.2.2
+
+dependencies:
+  pre:
+    - git config --global user.email "deploy@codefree.io"
+    - git config --global user.name "CodeFree Deploy"
+
+test:
+  override:
+    - echo 'There are no tests...'
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - bundle install
+      - bundle exec middleman deploy
