@@ -41,6 +41,7 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :relative_links, true
+set :frontmatter_extensions, %w(.markdown .md .slim)
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
