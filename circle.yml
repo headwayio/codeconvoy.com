@@ -2,9 +2,14 @@ machine:
   ruby:
     version: 2.2.2
 
+general:
+  branches:
+    ignore:
+      - gh-pages
+
 dependencies:
   pre:
-    - git config --global user.email "deploy@codefree.io"
+    - git config --global user.email "deploy@codefree.in"
     - git config --global user.name "CodeFree Deploy"
 
 test:
