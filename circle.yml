@@ -9,8 +9,8 @@ general:
 
 dependencies:
   pre:
-    - git config --global user.email "deploy@codefree.in"
-    - git config --global user.name "CodeFree Deploy"
+    - git config --global user.email "deploy@codeconvoy.com"
+    - git config --global user.name "Code Convoy Deploy"
 
 test:
   override:

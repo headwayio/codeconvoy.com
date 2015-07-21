@@ -31,8 +31,8 @@ Submit [a pull request](https://help.github.com/articles/using-pull-requests/) t
 Here are the commands to run to get set up locally:
 
 ```sh
-git clone git@github.com:headwayio/codefree.io.git
-cd codefree
+git clone git@github.com:headwayio/codeconvoy.git
+cd codeconvoy
 gem install bundler # if you don't already have it
 bundle install
 middleman
