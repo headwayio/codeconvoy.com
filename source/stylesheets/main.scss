@@ -15,11 +15,11 @@
  */
 
 html {
-  font-size: 16px;
+  font-size: 15px;
 }
 @media (min-width: 768px) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 body {
@@ -85,6 +85,14 @@ hr {
 }
 .navbar li {
   margin-bottom: 0;
+}
+
+/*
+ * Jumbotron
+ */
+
+.jumbotron {
+  text-align: center;
 }
 
 /*
