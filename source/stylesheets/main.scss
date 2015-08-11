@@ -79,6 +79,21 @@ hr {
 }
 
 /*
+ * Buttons
+ */
+
+.btn-outline {
+  border: 1px solid #FFF;
+  color: #FFF;
+  transition: .3s all;
+}
+.btn-outline:hover {
+  background-color: #49C4D2;
+  color: #FFF;
+  transition: .3s all;
+}
+
+/*
  * Navbar
  */
 
@@ -97,9 +112,14 @@ hr {
 .jumbotron {
   padding-top: 9rem;
   padding-bottom: 9rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  background-color: #7e7e7e;
+  background: url(../images/coding.jpg);
+  background-size: cover;
+  background-position: 50% 40%;
   text-align: center;
+  color: #FFF;
 }
 .jumbotron .lead {
   font-size: 2rem;
