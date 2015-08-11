@@ -1,7 +1,6 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
 
 /*
  * Layout
@@ -24,9 +23,11 @@ html {
   }
 }
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 1.35;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 p {
   margin-top: 0px;
@@ -145,6 +146,7 @@ hr {
 }
 .jumbotron .lead {
   font-size: 2.5rem;
+  font-weight: 100;
 }
 
 /*
