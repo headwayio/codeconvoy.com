@@ -2,12 +2,22 @@
 @import 'bootstrap';
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
 
+$white: #fff;
+$purple: #4E557B;
+$brand-color: #3D4169;
+
 /*
  * Layout
  */
 
 .center-block {
   float: none;
+}
+
+.section-inverse {
+  background-color: $purple;
+  color: $white;
+  padding: 1rem 0;
 }
 
 /*
@@ -41,7 +51,7 @@ h5,
 h6 {
   margin-top: 1.5rem;
   margin-bottom: .5rem;
-  color: #3D4169;
+  color: $brand-color;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -86,6 +96,13 @@ hr {
   letter-spacing: 1px;
   font-weight: 300;
 }
+.section-inverse h1,
+.section-inverse h2,
+.section-inverse h3,
+.section-inverse h4,
+.section-inverse h5 {
+  color: $white;
+}
 
 /*
  * Buttons
@@ -95,12 +112,17 @@ hr {
   border-radius: .25rem;
 }
 .btn-primary {
-  background-color: #3D4169;
+  background-color: $brand-color;
   border: 0;
 }
 .btn-secondary {
-  background-color: #FFF;
-  color: #3D4169;
+  background-color: $white;
+  color: $brand-color;
+}
+.btn-ghost {
+  border: 1px solid $brand-color;
+  color: $brand-color;
+  background-color: rgba(255,255,255,.2);
 }
 .btn-wide {
   width: 100%;
@@ -124,7 +146,7 @@ hr {
 
 .jumbotron {
   padding-top: 2rem;
-  background-color: #3D4169;
+  background-color: $brand-color;
   background: url(../images/background.png);
   background-size: cover;
   background-position: 50% 10%;
