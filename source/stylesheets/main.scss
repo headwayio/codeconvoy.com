@@ -4,6 +4,7 @@
 
 $white: #fff;
 $purple: #4E557B;
+$light-purple: #9BADCD;
 $brand-color: #3D4169;
 
 /*
@@ -13,11 +14,22 @@ $brand-color: #3D4169;
 .center-block {
   float: none;
 }
-
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 .section-inverse {
   background-color: $purple;
   color: $white;
-  padding: 1rem 0;
+}
+
+/*
+ * Grid system
+ */
+
+.col-half {
+  width: 50%;
+  float: left;
 }
 
 /*
@@ -36,6 +48,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 1.35;
+  color: $purple;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -61,7 +74,16 @@ h1 {
   font-weight: 300;
 }
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+}
+a {
+  color: $purple;
+  transition: .3s color;
+}
+a:hover {
+  color: $light-purple;
+  text-decoration: none;
+  transition: .3s color;
 }
 ul {
   padding-left: 20px;
@@ -90,7 +112,12 @@ hr {
   border-left: 0px;
   border-right: 0px;
 }
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
 .meta {
+  margin-top: 0;
   font-size: .8rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -111,13 +138,26 @@ hr {
 .btn {
   border-radius: .25rem;
 }
+.btn em {
+  text-decoration: underline;
+}
 .btn-primary {
   background-color: $brand-color;
   border: 0;
+  transition: .3s all;
+}
+.btn-primary:hover {
+  background-color: $purple;
+  transition: .3s all;
 }
 .btn-secondary {
   background-color: $white;
   color: $brand-color;
+  transition: .3s opacity;
+}
+.btn-secondary:hover {
+  opacity: .8;
+  transition: .3s opacity;
 }
 .btn-ghost {
   border: 1px solid $brand-color;
@@ -171,6 +211,7 @@ hr {
   padding-right: 8rem;
 }
 .jumbotron-text .lead {
+  margin-top: 0;
   font-size: 3rem;
   font-weight: 100;
 }
@@ -186,9 +227,10 @@ hr {
 
 .card {
   margin-bottom: 1rem;
-  padding: 1rem;
-  background-color: #E7E7E7;
-  border-radius: .25rem;
+  margin-left: -1px;
+  padding: 4rem;
+  text-align: center;
+  border: 1px solid $light-purple;
 }
 .card h2 {
   margin-top: 0;
