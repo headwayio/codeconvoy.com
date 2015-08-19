@@ -18,6 +18,9 @@ section {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.section-small {
+  padding-top: 0;
+}
 .section-inverse {
   background-color: $purple;
   color: $white;
@@ -70,11 +73,13 @@ h6 {
 }
 h1 {
   margin-top: 0px;
-  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 2.75rem;
   font-weight: 300;
 }
 h2 {
   font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 a {
   color: $purple;
@@ -137,13 +142,15 @@ hr {
 
 .btn {
   border-radius: .25rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .btn em {
   text-decoration: underline;
 }
 .btn-primary {
   background-color: $brand-color;
-  border: 0;
+  border: 1px solid $brand-color;
   transition: .3s all;
 }
 .btn-primary:hover {
@@ -216,9 +223,7 @@ hr {
   font-weight: 100;
 }
 .jumbotron-text h1 {
-  font-size: 3rem;
   margin-top: 6.5rem;
-  margin-bottom: 1rem;
 }
 
 /*
@@ -226,14 +231,60 @@ hr {
  */
 
 .card {
+  display: block;
   margin-bottom: 1rem;
   margin-left: -1px;
   padding: 4rem;
   text-align: center;
   border: 1px solid $light-purple;
 }
+.card-link {
+  transition: .3s all;
+}
 .card h2 {
   margin-top: 0;
+  font-size: 2rem;
+}
+.card .btn {
+  margin-top: 2rem;
+}
+.card .tech-logo {
+  max-width: 60px;
+  max-height: 75px;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.card-link:hover {
+  background-color: $purple;
+  color: $white;
+  transition: .3s all;
+}
+.card-link:hover h2,
+.card-link:hover .meta {
+  color: $white;
+  transition: .3s all;
+}
+.card-link:hover .btn {
+  background-color: $purple;
+  border: 1px solid $white;
+}
+
+/*
+ * Table
+ */
+
+.table tbody tr td {
+  border-top: 0;
+  padding-left: 0;
+}
+.table tbody tr td:first-child {
+  font-weight: bold;
+  min-width: 85px;
+}
+.table tbody tr:first-child td {
+  padding-top: 0;
 }
 
 /*
