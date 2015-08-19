@@ -11,6 +11,10 @@ $brand-color: #3D4169;
  * Layout
  */
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 .center-block {
   float: none;
 }
@@ -20,6 +24,10 @@ section {
 }
 .section-small {
   padding-top: 0;
+}
+.section-no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .section-inverse {
   background-color: $purple;
@@ -32,6 +40,10 @@ section {
 
 .col-half {
   width: 50%;
+  float: left;
+}
+.col-quarter {
+  width: 25%;
   float: left;
 }
 
@@ -132,7 +144,8 @@ hr {
 .section-inverse h2,
 .section-inverse h3,
 .section-inverse h4,
-.section-inverse h5 {
+.section-inverse h5,
+.section-inverse a {
   color: $white;
 }
 
@@ -269,6 +282,38 @@ hr {
 .card-link:hover .btn {
   background-color: $purple;
   border: 1px solid $white;
+}
+
+/*
+ * Profile
+ */
+
+.profile {
+  display: table;
+  position: relative;
+}
+.profile .caption {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(61, 65, 105, .6);
+  transition: .3s opacity;
+}
+.profile .caption span {
+  position: absolute;
+  padding: .5rem;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-weight: bold;
+}
+.profile:hover .caption {
+  opacity: 1;
+  transition: .3s opacity;
 }
 
 /*
