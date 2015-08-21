@@ -10,6 +10,13 @@ html
     = javascript_include_tag "all"
 
     script[src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.1/holder.min.js"]
+    
+    meta property="og:title" content="Code Convoy"
+    meta property="og:description" content="Evaluate programming
+as a potential career. A free event presented by Headway and Digital Fertilizer."
+    meta property="og:type" content="Article"
+    meta property="og:url" content="http://codeconvoy.com"
+    meta property="og:image" content="/images/background.png"
 
   body(class="#{page_classes}")
     = yield
