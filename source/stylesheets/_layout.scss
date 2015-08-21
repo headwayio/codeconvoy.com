@@ -1,0 +1,22 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.center-block {
+  float: none;
+}
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.section-small {
+  padding-top: 0;
+}
+.section-no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.section-inverse {
+  background-color: $purple;
+  color: $white;
+}
