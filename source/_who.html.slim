@@ -10,9 +10,11 @@ section.section-inverse.section-no-padding
   .row.row-wide
     - data.facilitators.each do |f|
       .col-sm-3.col-xs-6.col-no-padding
-        .profile
+        a.profile href="#{f.link}"
           = image_tag("/images/" + f.photo)
           .caption
-            span = f.name
+            .content
+              .name = f.name
+              .title = f.title
     .col-sm-6.col-xs-12 style="padding-top: 3rem; padding-bottom: 2rem;"
       p.text-center Interested in helping?<br>You can reach us at<br><a href="mailto:info@headway.io?subject=Code%20Convoy">info@headway.io</a>
