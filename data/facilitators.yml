@@ -1,29 +1,29 @@
 - name: Chris Schmitz
   photo: chris.jpg
-  twitter:
-  github:
+  link: http://twitter.com/ccschmitz
+  title: Co-Founder and Developer at Headway
 
 - name: Tim Gremore
   photo: tim.jpg
-  twitter:
-  github:
+  link: http://twitter.com/timgremore
+  title: Senior Ruby Developer at Entrision
 
 - name: Kevin McGillivray
   photo: kevin.jpg
-  twitter: kev_mcg
-  github: kmcgillivray
+  link: http://twitter.com/kev_mcg
+  title: Code-Founder of Code Convoy and Front End Instructor at Bloc
 
 - name: Eric Verboncouer
   photo: eric.jpg
-  twitter:
-  github:
+  link: http://twitter.com/everbs
+  title: Co-Founder and Developer at Headway
 
 - name: Jon Kinney
   photo: jon.jpg
-  twitter:
-  github:
+  link: http://twitter.com/jondkinney
+  title: Co-Founder and Developer at Headway
 
 - name: Andrew Hooker
   photo: andrew.jpg
-  twitter:
-  github: 
+  link: http://twitter.com/geekoncoffee
+  title: Lead Support Engineer at Preferral
