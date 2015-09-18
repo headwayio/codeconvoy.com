@@ -1,17 +1,6 @@
 .card {
-  display: block;
-  margin-bottom: 1rem;
-  margin-left: -1px;
-  padding: 4rem;
-  text-align: center;
-  border: 1px solid $light-purple;
-}
-.card-link {
-  transition: .3s all;
-}
-.card h2 {
-  margin-top: 0;
-  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .card .btn {
   margin-top: 2rem;
@@ -24,10 +13,23 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.card-link {
+  display: block;
+  margin-bottom: 1rem;
+  margin-left: -1px;
+  padding: 4rem;
+  text-align: center;
+  border: 1px solid $light-purple;
+  transition: .3s all;
+}
 .card-link:hover {
   background-color: $purple;
   color: $white;
   transition: .3s all;
+}
+.card-link h2 {
+  margin-top: 0;
+  font-size: 2rem;
 }
 .card-link:hover h2,
 .card-link:hover .meta {
