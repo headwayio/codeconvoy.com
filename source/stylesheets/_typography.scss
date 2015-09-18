@@ -43,6 +43,7 @@ h2 {
 a {
   color: $purple;
   transition: .3s color;
+  font-weight: bold;
 }
 a:hover {
   color: $light-purple;
@@ -59,6 +60,10 @@ ul li,
 ol li {
   margin-top: 0px;
   margin-bottom: .75rem;
+}
+.basic-list {
+  list-style: none;
+  padding-left: 0;
 }
 blockquote {
   padding-left: .75rem;
