@@ -5,16 +5,10 @@
 .jumbotron {
   padding-top: 2rem;
   background-color: $brand-color;
-  background: url(../images/background.png);
+  background: url('../images/background.png');
   background-size: cover;
   background-position: 50% 10%;
   color: #FFF;
-}
-.jumbotron-brand {
-  max-width: 170px;
-}
-.jumbotron-header {
-  margin-bottom: 1.5rem;
 }
 @media (min-width: 768px) {
   .jumbotron-header {
@@ -36,9 +30,8 @@
 }
 @media (min-width: 768px) {
   .jumbotron-text {
-    padding-top: 6.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
 .jumbotron-text .lead {
