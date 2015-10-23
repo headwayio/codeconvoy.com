@@ -5,10 +5,11 @@
 .navbar-default {
   background-color: $purple;
   border: none;
-  height: 75px;
+  height: 70px;
 }
 .navbar-brand img {
   width: 100%;
+  max-width: 150px;
 }
 .navbar li {
   margin-bottom: 0;
