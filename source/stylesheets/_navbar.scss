@@ -1,23 +1,22 @@
-.navbar {
+.navbar-default {
   border-radius: 0;
   margin-bottom: 0;
+  background-color: $white;
+  border-top: 0;
+  border-bottom: 0;
 }
-.navbar-default {
-  background-color: $purple;
-  border: none;
-  height: 70px;
+.navbar-default .navbar-nav li {
+  margin-top: .5rem;
 }
-.navbar-brand img {
+.navbar-brand {
+  width: 200px;
+}
+.logo {
   width: 100%;
-  max-width: 150px;
 }
-.navbar li {
-  margin-bottom: 0;
+.wave {
+  stroke: $blue;
 }
-.navbar-default .navbar-nav li a {
-  color: #FFF;
-}
-.navbar-default .navbar-nav .navbar-btn {
-  color: $brand-color;
-  font-weight: bold;
+.text {
+  fill: $blue;
 }

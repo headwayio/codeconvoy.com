@@ -1,42 +1,8 @@
 .card {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
+  background-color: $grey;
+  border-radius: 1rem;
 }
-.card .btn {
-  margin-top: 2rem;
-}
-.card .tech-logo {
-  max-width: 60px;
-  max-height: 75px;
-  margin-left: .5rem;
-  margin-right: .5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-.card-link {
-  display: block;
-  margin-bottom: 1rem;
-  margin-left: -1px;
-  padding: 4rem;
-  text-align: center;
-  border: 1px solid $light-purple;
-  transition: .3s all;
-}
-.card-link:hover {
-  background-color: $purple;
-  color: $white;
-  transition: .3s all;
-}
-.card-link h2 {
+.card h3:first-child {
   margin-top: 0;
-  font-size: 2rem;
-}
-.card-link:hover h2,
-.card-link:hover .meta {
-  color: $white;
-  transition: .3s all;
-}
-.card-link:hover .btn {
-  background-color: $purple;
-  border: 1px solid $white;
 }

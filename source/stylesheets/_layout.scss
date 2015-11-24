@@ -6,17 +6,10 @@ img {
   float: none;
 }
 section {
+  border-top: 1px solid $grey;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-.section-small {
-  padding-top: 0;
-}
-.section-no-padding {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.section-inverse {
-  background-color: $purple;
-  color: $white;
+section h2:first-child {
+  margin-top: 0;
 }
