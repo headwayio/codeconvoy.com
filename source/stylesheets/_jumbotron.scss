@@ -3,70 +3,12 @@
  */
 
 .jumbotron {
-  padding-top: 2rem;
-  background-color: $brand-color;
-  background: url(../images/background.png);
-  background-size: cover;
-  background-position: 50% 10%;
-  color: #FFF;
+  padding-top: 7rem;
+  padding-bottom: 9rem;
+  margin-bottom: 0;
+  background-color: $blue;
+  color: $white;
 }
-.jumbotron-brand {
-  max-width: 170px;
-}
-.jumbotron-header {
-  margin-bottom: 1.5rem;
-}
-@media (min-width: 768px) {
-  .jumbotron-header {
-    margin-bottom: 0;
-  }
-}
-.jumbotron-header .meta {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-@media (min-width: 768px) {
-  .jumbotron-header .meta {
-    text-align: left;
-    margin-bottom: 0;
-  }
-}
-.jumbotron-text {
-  text-align: center;
-}
-@media (min-width: 768px) {
-  .jumbotron-text {
-    padding-top: 6.5rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-}
-.jumbotron-text .lead {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 2.5rem;
-  font-weight: 100;
-}
-@media (min-width: 768px) {
-  .jumbotron-text .lead {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 3rem;
-    font-weight: 100;
-  }
-}
-.jumbotron-text h1 {
-  margin-top: 6.5rem;
-}
-.jumbotron .credits {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-size: .9rem;
-  font-style: italic;
-}
-.jumbotron .presenter {
-  max-width: 150px;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
+.jumbotron .lead {
+  font-size: 2.25rem;
 }

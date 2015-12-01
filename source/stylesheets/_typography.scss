@@ -10,7 +10,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 1.35;
-  color: $purple;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -26,27 +25,30 @@ h5,
 h6 {
   margin-top: 1.5rem;
   margin-bottom: .5rem;
-  color: $brand-color;
+  color: $blue;
   font-size: 1rem;
   font-weight: bold;
 }
 h1 {
   margin-top: 0px;
   margin-bottom: 1rem;
-  font-size: 2.75rem;
+  font-size: 3rem;
   font-weight: 300;
 }
 h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
+h3 {
+  font-size: 1.2rem;
+}
 a {
-  color: $purple;
+  color: $blue;
   transition: .3s color;
   font-weight: bold;
 }
 a:hover {
-  color: $light-purple;
+  color: $blue;
   text-decoration: none;
   transition: .3s color;
 }
@@ -83,31 +85,12 @@ hr {
 }
 .lead {
   font-size: 1.5rem;
-  margin-bottom: 0;
 }
-.meta {
-  margin-top: 0;
-  font-size: .8rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 300;
+.social {
+  margin-top: 2rem;
 }
-.fa {
-  font-size: 2rem;
-}
-.section-inverse h1,
-.section-inverse h2,
-.section-inverse h3,
-.section-inverse h4,
-.section-inverse h5,
-.section-inverse a {
-  color: $white;
-}
-.section-inverse a {
-  border-bottom: 1px solid rgba(255,255,255,.5);
-  transition: .3s all;
-}
-.section-inverse a:hover {
-  border-bottom: 1px solid rgba(255,255,255,1);
-  transition: .3s all;
+.social .fa {
+  font-size: 1.25rem;
+  margin-left: 5px;
+  margin-right: 5px;
 }

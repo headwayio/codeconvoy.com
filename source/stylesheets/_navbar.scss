@@ -1,15 +1,22 @@
-.navbar {
+.navbar-default {
   border-radius: 0;
   margin-bottom: 0;
+  background-color: $white;
+  border-top: 0;
+  border-bottom: 0;
 }
-.navbar-default {
-  background-color: $purple;
-  border: none;
-  height: 75px;
+.navbar-default .navbar-nav li {
+  margin-top: .5rem;
 }
-.navbar-brand img {
+.navbar-brand {
+  width: 200px;
+}
+.logo {
   width: 100%;
 }
-.navbar li {
-  margin-bottom: 0;
+.wave {
+  stroke: $blue;
+}
+.text {
+  fill: $blue;
 }

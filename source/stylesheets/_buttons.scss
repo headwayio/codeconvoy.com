@@ -1,34 +1,30 @@
 .btn {
+  font-size: .9rem;
   border-radius: .25rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
-.btn em {
-  text-decoration: underline;
-}
 .btn-primary {
-  background-color: $brand-color;
-  border: 1px solid $brand-color;
+  background-color: $blue;
+  border: 1px solid $blue;
   transition: .3s all;
 }
 .btn-primary:hover {
-  background-color: $purple;
+  background-color: $blue;
   transition: .3s all;
 }
 .btn-secondary {
   background-color: $white;
-  color: $brand-color;
+  color: $blue;
   transition: .3s opacity;
 }
 .btn-secondary:hover {
   opacity: .8;
   transition: .3s opacity;
 }
-.btn-ghost {
-  border: 1px solid $brand-color;
-  color: $brand-color;
-  background-color: rgba(255,255,255,.2);
-}
 .btn-wide {
   width: 100%;
+}
+.btn-lg {
+  font-size: 1.1rem;
 }
