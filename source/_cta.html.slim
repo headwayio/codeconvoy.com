@@ -1,22 +1,24 @@
 section
   .container
     .row
-      .col-md-9.center-block
-        h2 Coming soon
+      .col-md-9.col-lg-8.center-block
+        h2#contact Coming soon
         
-        p We're currently developing our first course. Sign up here to be notified when registration opens, or <a href="#">send us an email</a> if you have any questions.
+        p We're currently developing our first course. Sign up here to be notified when registration opens, or <a href="mailto:kevin@sandcastle.co">send us an email</a> if you have any questions.
         
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
           <form action="//headway.us11.list-manage.com/subscribe/post?u=adf501d71313451ca32c5ecb7&amp;id=b23d337d7e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div class="form-group" id="mc_embed_signup_scroll">
-              <input type="email" class="form-control text-center" style="margin-bottom: 15px;" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your@email.com" required>
+              <input type="email" class="form-control" style="margin-bottom: 15px;" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your@email.com" required>
               <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;"><input type="text" name="b_adf501d71313451ca32c5ecb7_b23d337d7e" tabindex="-1" value=""></div>
-              <div class="clear"><input type="submit" value="Sign up for updates" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-secondary btn-lg"></div>
+              <div class="clear"><input type="submit" value="Sign up for updates" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary btn-wide"></div>
             </div>
           </form>
         </div>
         <!--End mc_embed_signup-->
         
-        p Twitter: <a href="http://twitter.com/codeconvoy">@codeconvoy</a>
+        p.text-center.social
+          a target="_blank" href="http://twitter.com/codeconvoy" <i class="fa fa-twitter"></i>
+          a href="mailto:kevin@sandcastle.co" <i class="fa fa-envelope"></i>
