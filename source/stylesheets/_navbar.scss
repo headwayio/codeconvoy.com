@@ -8,8 +8,16 @@
 .navbar-default .navbar-nav li {
   margin-top: .5rem;
 }
+.navbar-default .navbar-nav li a:hover {
+  color: $blue;
+}
 .navbar-brand {
-  width: 200px;
+  width: 160px;
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    width: 200px;
+  }
 }
 .logo {
   width: 100%;
@@ -19,4 +27,13 @@
 }
 .text {
   fill: $blue;
+}
+.navbar-default .navbar-toggle {
+  color: $blue;
+  border: 1px solid $blue;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: $blue;
+  color: $white;
 }
