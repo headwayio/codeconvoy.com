@@ -9,13 +9,11 @@ html
     link[rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"]
 
     = stylesheet_link_tag "main"
+    script[src="https://code.jquery.com/jquery-1.11.3.min.js"]
     = javascript_include_tag "all"
-
-    script[src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.1/holder.min.js"]
     
     meta property="og:title" content="Code Convoy"
-    meta property="og:description" content="Evaluate programming
-as a potential career. A free event presented by Headway and Digital Fertilizer."
+    meta property="og:description" content="Learn, build, repeat. Web development classes in De Pere, WI."
     meta property="og:type" content="Article"
     meta property="og:url" content="http://codeconvoy.com"
     meta property="og:image" content="http://codeconvoy.com/images/open-graph.jpg"
@@ -23,3 +21,4 @@ as a potential career. A free event presented by Headway and Digital Fertilizer.
   body(class="#{page_classes}")
     = partial 'navbar'
     = yield
+    
