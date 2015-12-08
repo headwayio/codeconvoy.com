@@ -1,8 +1,16 @@
 .card {
+  margin-bottom: 1rem;
   padding: 2rem;
   background-color: $grey;
   border-radius: 1rem;
 }
 .card h3:first-child {
   margin-top: 0;
+}
+.section-secondary .card {
+  background-color: $white;
+  color: $blue;
+}
+.section-secondary .card h1 {
+  color: $blue;
 }

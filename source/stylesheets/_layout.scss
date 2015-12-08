@@ -14,5 +14,11 @@ section h2:first-child {
   margin-top: 0;
 }
 .section-secondary {
-  background-color: $grey;
+  background-color: $blue;
+  color: $white;
+}
+.section-secondary h1,
+.section-secondary h2,
+.section-secondary h3 {
+  color: $white;
 }
