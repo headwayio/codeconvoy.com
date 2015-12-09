@@ -74,3 +74,5 @@ activate :directory_indexes
 
 # Automatically generate vendor prefixes for CSS
 activate :autoprefixer
+
+activate :gemoji

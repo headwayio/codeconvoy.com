@@ -160,22 +160,30 @@ section.section-secondary
     .row
       h1.text-center#register Register now for Code Convoy
       .col-md-4
-        .card
-          h1.text-center $<strong>500</strong>
+        .card.text-center
+          h1 $<strong>500</strong>
           p.lead 8 class sessions
+          p.lead Starts Jan. 4th, 2016
           p.lead Places are limited – register now!
       .col-md-8
           h2 Try it for free
           p Try out the class for free—use the form below to sign up. We'll contact you and walk you through the rest.
           
-          h2 Sign up
-          p Places are limited. Spots will be reserved on a first-come, first-served basis.
+          h2 Get in touch
+          p Let us know you're interested using the form below. Places are limited. Spots will be reserved on a first-come, first-served basis.
           
-          form
-            .form-group
-              input.form-control type="text" placeholder="Name"
-            .form-group
-              input.form-control type="email" placeholder="Email"
-            .form-group
-              input.form-control type="text" placeholder="Phone"
-            button.btn.btn-secondary.btn-block type="submit" Send
+          <form action="https://getsimpleform.com/messages?form_api_token=226e4bc9591a20abfc3ab7c1e0c13a7f" method="post">
+          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+            <input type='hidden' name='redirect_to' value='http://codeconvoy.com/cheers' />
+            <!-- all your input fields here.... -->
+            <div class="form-group">
+              <input class="form-control" type='text' name='name' placeholder="Name"/>
+            </div>
+            <div class="form-group">
+              <input class="form-control" type='email' name='Email' placeholder="Email"/>
+            </div>
+            <div class="form-group">
+              <input class="form-control" type='text' name='Phone' placeholder="Phone number"/>
+            </div>
+            <input class="btn btn-secondary btn-block" type='submit' value='Send' />
+          </form>

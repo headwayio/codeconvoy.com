@@ -39,6 +39,7 @@ GEM
     eventmachine (1.0.7)
     execjs (2.5.2)
     ffi (1.9.8)
+    gemoji (2.1.0)
     haml (4.0.6)
       tilt
     hike (1.2.3)
@@ -83,6 +84,9 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
+    middleman-gemoji (0.0.5)
+      gemoji (~> 2.1)
+      middleman (~> 3.3)
     middleman-livereload (3.1.1)
       em-websocket (>= 0.2.0)
       middleman-core (>= 3.0.2)
@@ -148,8 +152,9 @@ DEPENDENCIES
   middleman
   middleman-autoprefixer
   middleman-deploy
+  middleman-gemoji
   middleman-livereload
   slim
 
 BUNDLED WITH
-   1.10.4
+   1.10.6

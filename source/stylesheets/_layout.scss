@@ -2,6 +2,9 @@ img {
   width: 100%;
   height: auto;
 }
+.gemoji {
+  width: auto;
+}
 .center-block {
   float: none;
 }
@@ -19,6 +22,10 @@ section h2:first-child {
 }
 .section-secondary h1,
 .section-secondary h2,
-.section-secondary h3 {
+.section-secondary h3,
+.section-secondary a {
   color: $white;
+}
+.footer .gemoji {
+  width: 20px;
 }
