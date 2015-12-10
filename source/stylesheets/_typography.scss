@@ -47,11 +47,13 @@ a {
   color: $blue;
   transition: .3s color;
   font-weight: bold;
+  transition: .3s all;
 }
 a:hover {
+  opacity: .8;
   color: $blue;
   text-decoration: none;
-  transition: .3s color;
+  transition: .3s all;
 }
 ul {
   padding-left: 20px;
@@ -94,7 +96,7 @@ hr {
   margin-top: 2rem;
 }
 .social .fa {
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   margin-left: 5px;
   margin-right: 5px;
 }

@@ -3,11 +3,14 @@
  */
 
 .jumbotron {
-  padding-top: 7rem;
-  padding-bottom: 9rem;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
   margin-bottom: 0;
   background-color: $blue;
   color: $white;
+}
+.jumbotron-text {
+  margin-bottom: 2rem;
 }
 .jumbotron .lead {
   font-size: 2.25rem;
