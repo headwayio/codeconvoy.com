@@ -1,6 +1,5 @@
 .card {
   margin-top: 1rem;
-  padding: 2rem;
   border-radius: 1rem;
 }
 .card h3:first-child {
@@ -10,7 +9,11 @@
   border-left: 3px solid $blue;
   padding-left: 1rem;
 }
+.section-highlight .card-secondary {
+  border-color: $white;
+}
 .card-inverse {
+  padding: 2rem;
   background-color: $white;
   color: $black;
 }
