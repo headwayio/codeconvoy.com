@@ -12,6 +12,7 @@ body {
   line-height: 1.35;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  color: $black;
 }
 p {
   margin-top: 0px;
@@ -37,7 +38,8 @@ h1 {
   font-weight: 300;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 300;
   margin-bottom: 1rem;
 }
 h3 {
@@ -90,6 +92,9 @@ hr {
   font-size: 1.5rem;
 }
 .meta {
+  color: $blue;
+}
+.highlight {
   color: $blue;
 }
 .social {

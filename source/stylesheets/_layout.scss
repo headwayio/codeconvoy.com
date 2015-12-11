@@ -16,14 +16,14 @@ section {
 section h2:first-child {
   margin-top: 0;
 }
-.section-secondary {
+.section-highlight {
   background-color: $blue;
   color: $white;
 }
-.section-secondary h1,
-.section-secondary h2,
-.section-secondary h3,
-.section-secondary a {
+.section-highlight h1,
+.section-highlight h2,
+.section-highlight h3,
+.section-highlight a {
   color: $white;
 }
 .footer .gemoji {

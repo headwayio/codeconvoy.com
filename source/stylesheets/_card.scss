@@ -1,16 +1,23 @@
 .card {
   margin-top: 1rem;
   padding: 2rem;
-  background-color: $grey;
   border-radius: 1rem;
 }
 .card h3:first-child {
   margin-top: 0;
 }
-.section-secondary .card {
+.card-secondary {
+  border-left: 3px solid $blue;
+  padding-left: 1rem;
+}
+.card-inverse {
   background-color: $white;
+  color: $black;
+}
+.card-inverse h1,
+.card-inverse a {
   color: $blue;
 }
-.section-secondary .card h1 {
-  color: $blue;
+.card-inverse .btn-primary {
+  color: $white;
 }
