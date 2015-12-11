@@ -5,6 +5,9 @@
 .card h3:first-child {
   margin-top: 0;
 }
+.card h3.bio-header {
+  margin-top: 1.5rem;
+}
 .card-secondary {
   border-left: 3px solid $blue;
   padding-left: 1rem;
