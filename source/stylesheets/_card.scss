@@ -2,6 +2,18 @@
   margin-top: 1rem;
   border-radius: 1rem;
 }
+.card-primary {
+  background-color: $blue;
+  color: $white;
+  padding: .5rem;
+  margin-bottom: 1.5rem;
+}
+.card-primary h2 {
+  color: $white;
+}
+.card-primary .small {
+  color: $white;
+}
 .card h3:first-child {
   margin-top: 0;
 }
