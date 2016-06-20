@@ -7,7 +7,7 @@ section
           p.lead.meta Intro to computer programming and scripting on the web
           p 
             a.btn.btn-primary.btn-lg href="#register" Register now
-        
+      .col-md-8.center-block
         p Learn how to make websites more interactive, dynamic, and engaging by combining HTML, CSS, and JavaScript. You'll learn the fundamentals of computer programming, how to read and write JavaScript, and the interdisciplinary creative strategies and programmatic thinking skills necessary to be a web developer.
               
 section.section-highlight
@@ -45,31 +45,7 @@ section
         
         h2.text-center What you'll build
 
-        p.text-center You'll learn how to build everything from <span class="highlight">simple websites and web games to professional level web applications</span> using the tools that professional web developers use every day.
-      
-      
-      .col-md-12
-        .row
-          .col-md-6
-            .card
-              h3 Fundamentals
-              p HTML, CSS, and JavaScript
-              
-          .col-md-6  
-            .card
-              h3 Version control
-              p Git and GitHub
-        
-        .row
-          .col-md-6
-            .card
-              h3 Advanced developer tools
-              p CSS Preprocessors, JavaScript task runners, package managers
-          
-          .col-md-6
-            .card
-              h3 JavaScript frameworks and libraries
-              p jQuery and AngularJS
+        p.text-center With JavaScript, the possibilities are endless. You'll learn the fundamentals of computer programming and JavaScript syntax, and then you'll use those skills to explore a wide variety of projects that interest you, including adding interactive elements to your personal website or portfolio, building app interfaces, creating animations and data visualizations, and programming web games.
       
 section
   .container      
@@ -99,31 +75,28 @@ section
         h3 Schedule
         table.table.small
           tr
-            td 4/11/2016
+            td 7/11/2016
             td 6:00PM – 7:30PM
           tr
-            td 4/18/2016
+            td 7/18/2016
             td 6:00PM – 7:30PM
           tr
-            td 4/25/2016
+            td 7/25/2016
             td 6:00PM – 7:30PM
           tr
-            td 5/2/2016
+            td 8/1/2016
             td 6:00PM – 7:30PM
           tr
-            td 5/9/2016
+            td 8/8/2016
             td 6:00PM – 7:30PM
           tr
-            td 5/16/2016
+            td 8/15/2016
             td 6:00PM – 7:30PM
           tr
-            td 5/23/2016
+            td 8/22/2016
             td 6:00PM – 7:30PM
           tr
-            td 5/30/2016
-            td No class – Memorial Day
-          tr
-            td 6/6/2016
+            td 8/29/2016
             td 6:00PM – 7:30PM
                 
       .col-md-6
@@ -139,7 +112,7 @@ section.section-highlight
         .card.card-inverse.text-center
           h1 $<strong>500</strong>
           p.lead 8 class sessions
-          p.lead Starts Apr. 11, 2016
+          p.lead Starts July 11, 2016
           p.lead Places are limited – register now!
       .col-md-8
           
@@ -149,6 +122,7 @@ section.section-highlight
           <form action="https://getsimpleform.com/messages?form_api_token=226e4bc9591a20abfc3ab7c1e0c13a7f" method="post">
           <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
             <input type='hidden' name='redirect_to' value='http://codeconvoy.com/cheers' />
+            <input type='hidden' name='course' value='JavaScript' />
             <!-- all your input fields here.... -->
             <div class="form-group">
               <input class="form-control" type='text' name='name' placeholder="Name"/>
@@ -162,40 +136,4 @@ section.section-highlight
             <input class="btn btn-ghost" type='submit' value='Send' />
           </form>
           
-section
-  .container
-    .row
-      .col-md-12
-        h2 Frequently asked questions
-        
-        .row
-          .col-md-6
-            h3 Do I need to have prior experience?
-            p No prior experience is necessary – the course is designed to meet the learning needs of all students from complete beginner to advanced.
-            
-          .col-md-6              
-            h3 What are the age requirements?
-            p The course is open to all students ages 12 and up.
-        
-        .row
-          .col-md-6
-            h3 Do I need a laptop?
-            p A laptop is required. We're working to develop more resources for students without a laptop, but a laptop is essential for practice in and out of the classroom.
-          
-          .col-md-6          
-            h3 What are the technical requirements?
-            p The course is mainly Mac and OSX based, but we can accomodate Windows systems as well.
-            
-        .row
-          .col-md-6
-            h3 What if I'm not sure if this is right for me?
-            p Try it for free! Let us know you're interested using the form above and we'll get in touch to find out more about your interests. Then come sit in on a class session for free to try it out, or attend one of our free <a href="/workshops">workshops</a>.
-            
-          .col-md-6
-            h3 Will you be offering this class again?
-            p Yes, we plan to offer this class regularly in eight week sessions. You can take the course as many times as you like to learn new skills and improve your current skills.
-                
-        .row
-          .col-md-6              
-            h3 What are the payment options?
-            p We accept credit cards, cash, checks, and PayPal in a single payment or with recurring payment plans. More information is available on our <a href="/payments">payment</a> page.
+= partial 'faq'

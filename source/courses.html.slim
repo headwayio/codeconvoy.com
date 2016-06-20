@@ -9,41 +9,8 @@ section.section-highlight
   .container
     .row
       .col-md-9.col-lg-8.center-block
-        
-        .card.card-inverse
-          .text-center
-            h2 style="font-size: 1.75rem" <a href="/courses">Web Development Fundamentals 1: HTML&nbsp;& CSS</a>
-            p.meta.lead Building and styling web pages
-          
-          p Learn how to make a website or web application by focusing on two of the fundamental building blocks of the web: HTML and CSS. You'll learn creative strategies and beginning to advanced technical skills for building the structure and style of web pages.
-          
-          .meta
-            .row
-              .col-md-6
-                p <i class="fa fa-pencil"></i> 8 class sessions<br><i class="fa fa-calendar"></i> Starts July 11, 2016
-              .col-md-6
-                p <i class="fa fa-map-o"></i> De Pere, Wisconsin<br><i class="fa fa-smile-o"></i> Instructor: Kevin McGillivray
-          .text-center
-            a.btn.btn-primary.btn-lg href="/web-fundamentals-1" Learn more
-            
-        .card.card-inverse
-          .text-center
-            h2 style="font-size: 1.75rem" <a href="/web-fundamentals-2">Web Development Fundamentals 2: JavaScript</a>
-            p.meta.lead Introduction to computer programming and scripting on the web
-          
-          p Learn how to make websites more interactive and engaging by combining HTML, CSS, and JavaScript. You'll learn the fundamentals of computer programming, how to read and write JavaScript, and the creative strategies and programmatic thinking skills necessary to be a web developer.
-          
-          .meta
-            .row
-              .col-md-6
-                p <i class="fa fa-pencil"></i> 8 class sessions<br><i class="fa fa-calendar"></i> Starts July 11, 2016
-              .col-md-6
-                p <i class="fa fa-map-o"></i> De Pere, Wisconsin<br><i class="fa fa-smile-o"></i> Instructor: Kevin McGillivray
-              .col-md-12
-                p.meta Prerequisite: previous experience with HTML and CSS or completion of Web Fundamentals 1: HTML & CSS
-          .text-center
-            a.btn.btn-primary.btn-lg href="/web-fundamentals-2" Learn more
       
+        = partial 'course-loop'
       
 section
   .container
@@ -73,40 +40,4 @@ section
               h3 One-room schoolhouse
               p Our class sizes are very small with a mix of students from different ages and ability levels. This creates a more interesting learning environment where students learn from each other, follow their own pace, and work with instructors individually.
           
-section
-  .container
-    .row
-      .col-md-12
-        h2 Frequently asked questions
-        
-        .row
-          .col-md-6
-            h3 Do I need to have prior experience?
-            p No prior experience is necessary – the course is designed to meet the learning needs of all students from complete beginner to advanced.
-            
-          .col-md-6              
-            h3 What are the age requirements?
-            p The course is open to all students ages 12 and up.
-        
-        .row
-          .col-md-6
-            h3 Do I need a laptop?
-            p A laptop is required. We're working to develop more resources for students without a laptop, but a laptop is essential for practice in and out of the classroom.
-          
-          .col-md-6          
-            h3 What are the technical requirements?
-            p The course is mainly Mac and OSX based, but we can accomodate Windows systems as well.
-            
-        .row
-          .col-md-6
-            h3 What if I'm not sure if this is right for me?
-            p Try it for free! Let us know you're interested using the form above and we'll get in touch to find out more about your interests. Then come sit in on a class session for free to try it out, or attend one of our free <a href="/workshops">workshops</a>.
-            
-          .col-md-6
-            h3 Will you be offering this class again?
-            p Yes, we plan to offer this class regularly in eight week sessions. You can take the course as many times as you like to learn new skills and improve your current skills.
-                
-        .row
-          .col-md-6              
-            h3 What are the payment options?
-            p We accept credit cards, cash, checks, and PayPal in a single payment or with recurring payment plans. More information is available on our <a href="/payments">payment</a> page.
+= partial 'faq'

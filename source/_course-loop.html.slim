@@ -1,0 +1,31 @@
+- data.courses.each do |course|
+  .card.card-inverse
+    .text-center
+      h2 style="font-size: 1.75rem"
+        a href=course.url = course.title
+      p.meta.lead = course.subtitle
+    
+    p = course.description
+    
+    .meta
+      .row
+        .col-md-6
+          p
+            span class="fa fa-pencil"
+            span  8 class sessions
+            br
+            span class="fa fa-calendar"
+            span = " " + course.startDate
+        .col-md-6
+          p
+            span class="fa fa-map-o"
+            span = " " + course.location
+            br
+            span class="fa fa-smile-o"
+            span = " Instructor: " + course.instructor
+        - if course.prerequisite
+          .col-md-12
+            p.meta = "Prerequisite: " + course.prerequisite
+    
+    .text-center
+      a.btn.btn-primary.btn-lg href=course.url Learn more

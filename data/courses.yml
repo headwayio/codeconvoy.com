@@ -1,0 +1,16 @@
+- title: "Web Fundamentals 1: HTML and CSS"
+  url: /courses/html-and-css
+  subtitle: Building and styling web pages
+  description: "Learn how to make a website or web application by focusing on two of the fundamental building blocks of the web: HTML and CSS. You'll learn creative strategies and beginning to advanced technical skills for building the structure and style of web pages."
+  startDate: "Starts July 11, 2016"
+  location: "De Pere, Wisconsin"
+  instructor: Kevin McGillivray
+
+- title: "Web Fundamentals 2: JavaScript"
+  url: /courses/javascript
+  subtitle: Introduction to computer programming and scripting on the web
+  description: "Learn how to make a website or web application by focusing on two of the fundamental building blocks of the web: HTML and CSS. You'll learn creative strategies and beginning to advanced technical skills for building the structure and style of web pages."
+  startDate: "Starts July 11, 2016"
+  location: "De Pere, Wisconsin"
+  instructor: Kevin McGillivray
+  prerequisite: "Previous experience with HTML and CSS or completion of Web Fundamentals 1: HTML & CSS"
